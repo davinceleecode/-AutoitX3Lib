@@ -1,0 +1,13 @@
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\bin\Debug\AutoItSolution.exe.config
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\bin\Debug\AutoItSolution.exe.manifest
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\bin\Debug\AutoItSolution.exe
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\bin\Debug\AutoItSolution.pdb
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\bin\Debug\AutoItX3.dll
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.csprojAssemblyReference.cache
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\Interop.AutoItX3Lib.dll
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.csproj.ResolveComReference.cache
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.exe.manifest
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.exe
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.pdb
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.AutoIt.resources
+C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.csproj.GenerateResource.cache
