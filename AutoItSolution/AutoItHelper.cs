@@ -60,6 +60,18 @@ namespace AutoItSolution
             AI.WinClose(title, text);
         }
 
+        /// <summary>
+        /// Activates (gives focus to) a window.
+        /// </summary>
+        /// <param name="title">The title/hWnd/class of the window to activate.</param>
+        /// <param name="text">[optional] The text of the window to activate. Default is an empty string.</param>
+        public void ActivateWindow(string title, string text = "")
+        {
+            AI.WinActivate(title);
+        }
+
+
+
         public void Send(string text)
         {
             AI.Send(text);

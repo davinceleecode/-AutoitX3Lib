@@ -19,8 +19,8 @@ namespace AutoItSolution
         {
             InitializeComponent();
         }
-         
-            
+
+
         private void btnMouseClick_Click(object sender, EventArgs e)
         {
             //mouse move and click the specific window coordinates
@@ -30,19 +30,27 @@ namespace AutoItSolution
         private void btnControlFocus_Click(object sender, EventArgs e)
         {
             //in this example can't focus application if windowstate is minimize
-            x.ControlFocus("[Class:Notepad]", "", "Edit1");
+            Process.Start("Notepad");
+            x.ControlFocus(@"[Title:Untitled - Notepad; Class:Notepad]", "", "Edit1");
+            x.WinWaitActive(@"[Title:Untitled - Notepad; Class:Notepad]");
+            x.AI.Send("This is some text.");
+            x.WinClose("*Untitled - Notepad");
+
+            x.WinWaitActive("Notepad", "Save");
+
+            SendKeys.SendWait("!n");
         }
 
         private void btnWaitActiveControl_Click(object sender, EventArgs e)
         {
             //Run notepad
             Process.Start("Notepad");
-            
+
             x.WinWaitActive("Untitled - Notepad");
-            
+
             x.AI.Send("This is some text.");
-            Thread.Sleep(2000);
-            
+
+
             x.WinClose("*Untitled - Notepad");
 
             x.WinWaitActive("Notepad", "Save");
@@ -63,6 +71,17 @@ namespace AutoItSolution
             ////Close the Notepad window using the classname of Notepad.
             //x.WinClose("[CLASS:Notepad]");
             #endregion
+        }
+
+        private void btnActivateWindow_Click(object sender, EventArgs e)
+        {
+            Process process = new Process();
+            process.StartInfo.FileName = "Calc.exe";
+            process.Start();
+
+            x.ActivateWindow("Calculator");
+            Thread.Sleep(3000);
+            x.WinClose("Calculator");
         }
     }
 }
