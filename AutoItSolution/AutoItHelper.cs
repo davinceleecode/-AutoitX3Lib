@@ -5,14 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoItX3Lib;
 
+
 namespace AutoItSolution
 {
     public class AutoItHelper : BaseAutoIt
     {
-        
+
         public AutoItHelper()
-            : base(new AutoItX3()) {   }
-        
+            : base(new AutoItX3()) { }
+
 
         /// <summary>
         /// Will automate the actual mouse click
@@ -54,7 +55,7 @@ namespace AutoItSolution
         /// </summary>
         /// <param name="title">The title/hWnd/class of the window to check.</param>
         /// <param name="text">[optional] The text of the window to close. Default is an empty string.</param>
-        public void WinClose(string title,string text = "")
+        public void WinClose(string title, string text = "")
         {
             AI.WinClose(title, text);
         }

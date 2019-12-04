@@ -43,7 +43,7 @@ namespace AutoItSolution
             x.AI.Send("This is some text.");
             Thread.Sleep(2000);
             
-            x.WinClose("Untitled - Notepad");
+            x.WinClose("*Untitled - Notepad");
 
             x.WinWaitActive("Notepad", "Save");
 
