@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Windows.Forms;
 
-namespace AutoItSolution
+namespace AutoItLee
 {
     static class Program
     {

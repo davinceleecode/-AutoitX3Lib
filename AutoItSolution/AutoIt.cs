@@ -9,31 +9,34 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.Threading;
+using AutoItLee;
 
-namespace AutoItSolution
+namespace AutoItLee
 {
     public partial class AutoIt : Form
     {
-        AutoItHelper x = new AutoItHelper();
+        private readonly AutoItLeeHelper x;
+
         public AutoIt()
         {
             InitializeComponent();
+            x = new AutoItLeeHelper();
         }
 
 
-        private void btnMouseClick_Click(object sender, EventArgs e)
+        private void BtnMouseClick_Click(object sender, EventArgs e)
         {
             //mouse move and click the specific window coordinates
             x.MouseClick(CommonEnum.MouseClick.LEFT, 35, 21, 2, -1);
         }
 
-        private void btnControlFocus_Click(object sender, EventArgs e)
+        private void BtnControlFocus_Click(object sender, EventArgs e)
         {
             //in this example can't focus application if windowstate is minimize
             Process.Start("Notepad");
             x.ControlFocus(@"[Title:Untitled - Notepad; Class:Notepad]", "", "Edit1");
             x.WinWaitActive(@"[Title:Untitled - Notepad; Class:Notepad]");
-            x.AI.Send("This is some text.");
+            x.Send("This is some text.");
             x.WinClose("*Untitled - Notepad");
 
             x.WinWaitActive("Notepad", "Save");
@@ -41,14 +44,14 @@ namespace AutoItSolution
             SendKeys.SendWait("!n");
         }
 
-        private void btnWaitActiveControl_Click(object sender, EventArgs e)
+        private void BtnWaitActiveControl_Click(object sender, EventArgs e)
         {
             //Run notepad
             Process.Start("Notepad");
 
             x.WinWaitActive("Untitled - Notepad");
 
-            x.AI.Send("This is some text.");
+            x.Send("This is some text.");
 
 
             x.WinClose("*Untitled - Notepad");
@@ -73,15 +76,17 @@ namespace AutoItSolution
             #endregion
         }
 
-        private void btnActivateWindow_Click(object sender, EventArgs e)
+        private void BtnActivateWindow_Click(object sender, EventArgs e)
         {
             Process process = new Process();
             process.StartInfo.FileName = "Calc.exe";
             process.Start();
 
-            x.ActivateWindow("Calculator");
+            x.WinActivate("Calculator");
             Thread.Sleep(3000);
             x.WinClose("Calculator");
         }
+
+
     }
 }

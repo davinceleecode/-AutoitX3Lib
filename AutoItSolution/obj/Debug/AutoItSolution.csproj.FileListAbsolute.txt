@@ -13,7 +13,6 @@ C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolu
 C:\Users\Lee\Desktop\SourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.csproj.GenerateResource.cache
 C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.csprojAssemblyReference.cache
 C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.csproj.ResolveComReference.cache
-C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.AutoIt.resources
 C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.csproj.GenerateResource.cache
 C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.exe
 C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.pdb
@@ -21,3 +20,8 @@ C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\
 C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\bin\Debug\AutoItSolution.exe
 C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\bin\Debug\AutoItSolution.pdb
 C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\Interop.AutoItX3Lib.dll
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItLee.AutoIt.resources
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\bin\Debug\AutoItLee.dll
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\bin\Debug\AutoItLee.pdb
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\obj\Debug\AutoItSolution.csproj.CopyComplete
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItSolution\bin\Debug\AutoItLee.xml

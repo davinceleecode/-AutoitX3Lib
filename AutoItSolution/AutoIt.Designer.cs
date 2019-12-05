@@ -1,4 +1,4 @@
-﻿namespace AutoItSolution
+﻿namespace AutoItLee
 {
     partial class AutoIt
     {
@@ -28,69 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnMouseClick = new System.Windows.Forms.Button();
-            this.btnControlFocus = new System.Windows.Forms.Button();
-            this.btnWaitActiveControl = new System.Windows.Forms.Button();
-            this.btnActivateWindow = new System.Windows.Forms.Button();
+            this.BtnMouseClick = new System.Windows.Forms.Button();
+            this.BtnControlFocus = new System.Windows.Forms.Button();
+            this.BtnWaitActiveControl = new System.Windows.Forms.Button();
+            this.BtnActivateWindow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnMouseClick
+            // BtnMouseClick
             // 
-            this.btnMouseClick.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMouseClick.Location = new System.Drawing.Point(16, 15);
-            this.btnMouseClick.Margin = new System.Windows.Forms.Padding(4);
-            this.btnMouseClick.Name = "btnMouseClick";
-            this.btnMouseClick.Size = new System.Drawing.Size(212, 52);
-            this.btnMouseClick.TabIndex = 0;
-            this.btnMouseClick.Text = "Mouse Move Click";
-            this.btnMouseClick.UseVisualStyleBackColor = true;
-            this.btnMouseClick.Click += new System.EventHandler(this.btnMouseClick_Click);
+            this.BtnMouseClick.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMouseClick.Location = new System.Drawing.Point(16, 15);
+            this.BtnMouseClick.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnMouseClick.Name = "BtnMouseClick";
+            this.BtnMouseClick.Size = new System.Drawing.Size(212, 52);
+            this.BtnMouseClick.TabIndex = 0;
+            this.BtnMouseClick.Text = "Mouse Move Click";
+            this.BtnMouseClick.UseVisualStyleBackColor = true;
+            this.BtnMouseClick.Click += new System.EventHandler(this.BtnMouseClick_Click);
             // 
-            // btnControlFocus
+            // BtnControlFocus
             // 
-            this.btnControlFocus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnControlFocus.Location = new System.Drawing.Point(16, 74);
-            this.btnControlFocus.Margin = new System.Windows.Forms.Padding(4);
-            this.btnControlFocus.Name = "btnControlFocus";
-            this.btnControlFocus.Size = new System.Drawing.Size(212, 52);
-            this.btnControlFocus.TabIndex = 1;
-            this.btnControlFocus.Text = "Control Focus";
-            this.btnControlFocus.UseVisualStyleBackColor = true;
-            this.btnControlFocus.Click += new System.EventHandler(this.btnControlFocus_Click);
+            this.BtnControlFocus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnControlFocus.Location = new System.Drawing.Point(16, 74);
+            this.BtnControlFocus.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnControlFocus.Name = "BtnControlFocus";
+            this.BtnControlFocus.Size = new System.Drawing.Size(212, 52);
+            this.BtnControlFocus.TabIndex = 1;
+            this.BtnControlFocus.Text = "Control Focus";
+            this.BtnControlFocus.UseVisualStyleBackColor = true;
+            this.BtnControlFocus.Click += new System.EventHandler(this.BtnControlFocus_Click);
             // 
-            // btnWaitActiveControl
+            // BtnWaitActiveControl
             // 
-            this.btnWaitActiveControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWaitActiveControl.Location = new System.Drawing.Point(16, 133);
-            this.btnWaitActiveControl.Margin = new System.Windows.Forms.Padding(4);
-            this.btnWaitActiveControl.Name = "btnWaitActiveControl";
-            this.btnWaitActiveControl.Size = new System.Drawing.Size(212, 52);
-            this.btnWaitActiveControl.TabIndex = 2;
-            this.btnWaitActiveControl.Text = "Windows Wait Active";
-            this.btnWaitActiveControl.UseVisualStyleBackColor = true;
-            this.btnWaitActiveControl.Click += new System.EventHandler(this.btnWaitActiveControl_Click);
+            this.BtnWaitActiveControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnWaitActiveControl.Location = new System.Drawing.Point(16, 133);
+            this.BtnWaitActiveControl.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnWaitActiveControl.Name = "BtnWaitActiveControl";
+            this.BtnWaitActiveControl.Size = new System.Drawing.Size(212, 52);
+            this.BtnWaitActiveControl.TabIndex = 2;
+            this.BtnWaitActiveControl.Text = "Windows Wait Active";
+            this.BtnWaitActiveControl.UseVisualStyleBackColor = true;
+            this.BtnWaitActiveControl.Click += new System.EventHandler(this.BtnWaitActiveControl_Click);
             // 
-            // btnActivateWindow
+            // BtnActivateWindow
             // 
-            this.btnActivateWindow.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActivateWindow.Location = new System.Drawing.Point(16, 193);
-            this.btnActivateWindow.Margin = new System.Windows.Forms.Padding(4);
-            this.btnActivateWindow.Name = "btnActivateWindow";
-            this.btnActivateWindow.Size = new System.Drawing.Size(212, 52);
-            this.btnActivateWindow.TabIndex = 3;
-            this.btnActivateWindow.Text = "Activate Window";
-            this.btnActivateWindow.UseVisualStyleBackColor = true;
-            this.btnActivateWindow.Click += new System.EventHandler(this.btnActivateWindow_Click);
+            this.BtnActivateWindow.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnActivateWindow.Location = new System.Drawing.Point(16, 193);
+            this.BtnActivateWindow.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnActivateWindow.Name = "BtnActivateWindow";
+            this.BtnActivateWindow.Size = new System.Drawing.Size(212, 52);
+            this.BtnActivateWindow.TabIndex = 3;
+            this.BtnActivateWindow.Text = "Activate Window";
+            this.BtnActivateWindow.UseVisualStyleBackColor = true;
+            this.BtnActivateWindow.Click += new System.EventHandler(this.BtnActivateWindow_Click);
             // 
             // AutoIt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(244, 256);
-            this.Controls.Add(this.btnActivateWindow);
-            this.Controls.Add(this.btnWaitActiveControl);
-            this.Controls.Add(this.btnControlFocus);
-            this.Controls.Add(this.btnMouseClick);
+            this.Controls.Add(this.BtnActivateWindow);
+            this.Controls.Add(this.BtnWaitActiveControl);
+            this.Controls.Add(this.BtnControlFocus);
+            this.Controls.Add(this.BtnMouseClick);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AutoIt";
             this.Text = "AutoIt";
@@ -100,9 +100,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnMouseClick;
-        private System.Windows.Forms.Button btnControlFocus;
-        private System.Windows.Forms.Button btnWaitActiveControl;
-        private System.Windows.Forms.Button btnActivateWindow;
+        private System.Windows.Forms.Button BtnMouseClick;
+        private System.Windows.Forms.Button BtnControlFocus;
+        private System.Windows.Forms.Button BtnWaitActiveControl;
+        private System.Windows.Forms.Button BtnActivateWindow;
     }
 }

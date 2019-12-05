@@ -1,0 +1,12 @@
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\bin\Debug\netstandard2.0\AutoItLee.deps.json
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\bin\Debug\netstandard2.0\AutoItLee.dll
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\bin\Debug\netstandard2.0\AutoItLee.pdb
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\bin\Debug\netstandard2.0\Interop.AutoItX3Lib.dll
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\obj\Debug\netstandard2.0\AutoItLee.csprojAssemblyReference.cache
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\obj\Debug\netstandard2.0\Interop.AutoItX3Lib.dll
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\obj\Debug\netstandard2.0\AutoItLee.csproj.ResolveComReference.cache
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\obj\Debug\netstandard2.0\AutoItLee.AssemblyInfoInputs.cache
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\obj\Debug\netstandard2.0\AutoItLee.AssemblyInfo.cs
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\obj\Debug\netstandard2.0\AutoItLee.dll
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\obj\Debug\netstandard2.0\AutoItLee.pdb
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\-AutoitX3Lib\AutoItLee\bin\Debug\netstandard2.0\AutoItLee.xml

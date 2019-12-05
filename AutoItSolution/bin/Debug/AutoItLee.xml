@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoItLee</name>
+    </assembly>
+    <members>
+        <member name="T:AutoItLee.AutoItLeeHelper">
+            <summary>
+            AutoItLeeHelper was initially designed for PC “roll out” situations to reliably automate and configure thousands of PCs. 
+            </summary>
+        </member>
+        <member name="M:AutoItLee.AutoItLeeHelper.#ctor">
+            <summary>
+            passing instance of AutoITLee to base
+            </summary>
+        </member>
+        <member name="M:AutoItLee.AutoItLeeHelper.MouseClick(AutoItLee.CommonEnum.MouseClick,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Will automate the actual mouse click
+            </summary>
+            <param name="clickSide">Option to select Left or Right click</param>
+            <param name="x">Target the x position</param>
+            <param name="y">Target the y position</param>
+            <param name="clickCount">How many mouse click to perform</param>
+            <param name="speed">Speed of the mouse interaction</param>
+        </member>
+        <member name="M:AutoItLee.AutoItLeeHelper.ControlFocus(System.String,System.String,System.String)">
+            <summary>
+            a handle to the requested window.
+            </summary>
+            <param name="title">The title/hWnd/class of the window to check.</param>
+            <param name="text">The text of the window to check. Default is an empty string.</param>
+            <param name="control">Basic control info</param>
+        </member>
+        <member name="M:AutoItLee.AutoItLeeHelper.WinWaitActive(System.String,System.String,System.Int32)">
+            <summary>
+            wait until the target windows control activate
+            </summary>
+            <param name="title">The title/hWnd/class of the window to check.</param>
+            <param name="text">The text of the window to check. Default is an empty string.</param>
+            <param name="timeout">Timeout in seconds if the window is not active. Default is 0 (no timeout).</param>
+        </member>
+        <member name="M:AutoItLee.AutoItLeeHelper.WinClose(System.String,System.String)">
+            <summary>
+            Closes a window.
+            </summary>
+            <param name="title">The title/hWnd/class of the window to check.</param>
+            <param name="text">[optional] The text of the window to close. Default is an empty string.</param>
+        </member>
+        <member name="M:AutoItLee.AutoItLeeHelper.WinActivate(System.String,System.String)">
+            <summary>
+            Activates (gives focus to) a window.
+            </summary>
+            <param name="title">The title/hWnd/class of the window to activate.</param>
+            <param name="text">[optional] The text of the window to activate. Default is an empty string.</param>
+        </member>
+        <member name="M:AutoItLee.AutoItLeeHelper.Send(System.String)">
+            <summary>
+            Sends keystrokes to the active application.
+            </summary>
+            <param name="text">The string of keystrokes to send.</param>
+        </member>
+        <member name="M:AutoItLee.AutoItLeeHelper.WinSetState(System.String,System.String,System.Int32)">
+            <summary>
+            Shows, hides, minimizes, maximizes, or restores a window.
+            </summary>
+            <param name="title">The title/hWnd/class of the window to change the state.</param>
+            <param name="text">The text of the window to change the state.</param>
+            <param name="flag">The "show" flag of the executed program:
+                                @SW_HIDE = Hide window
+                                @SW_SHOW = Shows a previously hidden window
+                                @SW_MINIMIZE = Minimize window
+                                @SW_MAXIMIZE = Maximize window
+                                @SW_RESTORE = Undoes a window minimization or maximization
+                                @SW_DISABLE = Disables the window
+                                @SW_ENABLE = Enables the window</param>
+        </member>
+        <member name="T:AutoItLee.BaseAutoIt">
+            <summary>
+            base class of AuoItLee
+            </summary>
+        </member>
+        <member name="F:AutoItLee.BaseAutoIt.AI">
+            <summary>
+            instance of AutoItLeeHelper
+            </summary>
+        </member>
+        <member name="M:AutoItLee.BaseAutoIt.#ctor(AutoItX3Lib.IAutoItX3)">
+            <summary>
+            instance of AutoItLeeHelper
+            </summary>
+            <param name="autoItX3"></param>
+        </member>
+        <member name="T:AutoItLee.CommonEnum">
+            <summary>
+            Stores all common enums.
+            </summary>
+        </member>
+        <member name="T:AutoItLee.CommonEnum.MouseClick">
+            <summary>
+            MouseClick Enum
+            </summary>
+        </member>
+        <member name="F:AutoItLee.CommonEnum.MouseClick.RIGHT">
+            <summary>
+            Right click intervention
+            </summary>
+        </member>
+        <member name="F:AutoItLee.CommonEnum.MouseClick.LEFT">
+            <summary>
+            Left click intervention
+            </summary>
+        </member>
+    </members>
+</doc>

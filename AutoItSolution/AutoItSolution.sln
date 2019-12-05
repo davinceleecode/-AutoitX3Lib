@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoItSolution", "AutoItSolution.csproj", "{0E630C89-B8E8-4D23-8EF6-5B362D38775D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoItLee", "..\AutoItLee\AutoItLee.csproj", "{603BC97F-F107-42B0-A0B6-76231C2BFDA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0E630C89-B8E8-4D23-8EF6-5B362D38775D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E630C89-B8E8-4D23-8EF6-5B362D38775D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E630C89-B8E8-4D23-8EF6-5B362D38775D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603BC97F-F107-42B0-A0B6-76231C2BFDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603BC97F-F107-42B0-A0B6-76231C2BFDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603BC97F-F107-42B0-A0B6-76231C2BFDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603BC97F-F107-42B0-A0B6-76231C2BFDA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

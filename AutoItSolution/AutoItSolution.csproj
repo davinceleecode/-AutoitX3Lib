@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AutoItSolution.Program</StartupObject>
+    <StartupObject>AutoItLee.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -59,9 +59,6 @@
     <Compile Include="AutoIt.Designer.cs">
       <DependentUpon>AutoIt.cs</DependentUpon>
     </Compile>
-    <Compile Include="AutoItHelper.cs" />
-    <Compile Include="BaseAutoIt.cs" />
-    <Compile Include="CommonEnum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -83,6 +80,12 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoItLee\AutoItLee.csproj">
+      <Project>{603bc97f-f107-42b0-a0b6-76231c2bfda1}</Project>
+      <Name>AutoItLee</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

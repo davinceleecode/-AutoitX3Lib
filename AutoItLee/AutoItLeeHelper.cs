@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 using AutoItX3Lib;
 
 
-namespace AutoItSolution
+namespace AutoItLee
 {
-    public class AutoItHelper : BaseAutoIt
+    /// <summary>
+    /// AutoItLeeHelper was initially designed for PC “roll out” situations to reliably automate and configure thousands of PCs. 
+    /// </summary>
+    public class AutoItLeeHelper : BaseAutoIt
     {
-
-        public AutoItHelper()
+        /// <summary>
+        /// passing instance of AutoITLee to base
+        /// </summary>
+        public AutoItLeeHelper()
             : base(new AutoItX3()) { }
 
 
@@ -65,16 +70,37 @@ namespace AutoItSolution
         /// </summary>
         /// <param name="title">The title/hWnd/class of the window to activate.</param>
         /// <param name="text">[optional] The text of the window to activate. Default is an empty string.</param>
-        public void ActivateWindow(string title, string text = "")
+        public void WinActivate(string title, string text = "")
         {
             AI.WinActivate(title);
         }
 
 
-
+        /// <summary>
+        /// Sends keystrokes to the active application.
+        /// </summary>
+        /// <param name="text">The string of keystrokes to send.</param>
         public void Send(string text)
         {
             AI.Send(text);
+        }
+
+        /// <summary>
+        /// Shows, hides, minimizes, maximizes, or restores a window.
+        /// </summary>
+        /// <param name="title">The title/hWnd/class of the window to change the state.</param>
+        /// <param name="text">The text of the window to change the state.</param>
+        /// <param name="flag">The "show" flag of the executed program:
+        ///                     @SW_HIDE = Hide window
+        ///                     @SW_SHOW = Shows a previously hidden window
+        ///                     @SW_MINIMIZE = Minimize window
+        ///                     @SW_MAXIMIZE = Maximize window
+        ///                     @SW_RESTORE = Undoes a window minimization or maximization
+        ///                     @SW_DISABLE = Disables the window
+        ///                     @SW_ENABLE = Enables the window</param>
+        public void WinSetState(string title, string text, int flag)
+        {
+            AI.WinSetState(title, text, flag);
         }
     }
 }
