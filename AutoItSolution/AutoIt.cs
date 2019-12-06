@@ -27,7 +27,7 @@ namespace AutoItLee
         private void BtnMouseClick_Click(object sender, EventArgs e)
         {
             //mouse move and click the specific window coordinates
-            x.MouseClick(CommonEnum.MouseClick.LEFT, 35, 21, 2, -1);
+            x.MouseClick(CommonEnum.MouseButton.LEFT, 35, 21, 2, -1);
         }
 
         private void BtnControlFocus_Click(object sender, EventArgs e)
